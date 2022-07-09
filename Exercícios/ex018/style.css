@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@font-face {
+            font-family: 'DOMI';
+            src: url('DOMINICA.TTF') format('truetype');
+        }
+@font-face {
+            font-family:'BlackEra';
+            src: url('BlackEra.otf') format('opentype'),url('DOMINICA.TTF')
+            format('truetype');
+            font-weight: normal;
+            font-style: normal;
+ 
+            /* 
+            Tipos de format()
+            -opentype (otf)
+            -true (ttf)
+            -embedded-opentype
+            -truetype-aat (Apple Advanced Typography)
+            -svg
+            */
+        }
+
+        h1{
+            font-family: 'BlackEra',Arial, Helvetica, sans-serif;
+        
+        }
+        p{
+            font-family: 'DOMI';
+
+        }
+        h2{
+        
+            font-family: cali, cursive;
+        }

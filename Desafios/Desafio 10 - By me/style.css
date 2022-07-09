@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'Droid';
+    src: url('idroid.otf') format('opentype');
+@font-face {
+    font-family: 'Droi';
+    src: url('_idroid.otf') format('opentype');
+}
+}
+body{
+    background-color: #00D471;
+}
+.centro{
+    text-align: center;
+    color: white; 
+}
+.menu{
+    color: white;
+    text-decoration: none;
+    padding:15px;
+}
+.menu:hover{
+    box-shadow: inset 0px 0px 17px 8px black;
+}
+header{
+    background-image: linear-gradient(to top, #26802E,#00D471);
+    height: auto;
+    padding: 16px;
+}
+main{
+    background-color: white;
+    padding: 6px;
+    margin: 0px 110px 10px 110px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px -1px 6px 0px black;
+}
+.subti{
+    font-family: 'Droid';
+    color: rgb(0, 134, 0);
+    background-image: linear-gradient(to right,#00f63e4e, #0ceb4000)
+}
+p{
+    text-align: justify;
+}
+.links{
+    color: rgb(9, 175, 12);
+    text-decoration: none;
+}
+h2{
+    font-family: 'Droid';
+    color: rgb(0, 134, 0);
+}
+.icoanex::after{
+    content:'✦';
+}
+picture{
+    text-align: center;
+    
+}
+iframe{
+    margin: 0px 110px 10px 110px;
+    border: 10px black;
+
+}
+.lista{
+    padding: 200px;
+    text-align: center;
+}
+.lista::before{
+    content: '✔';
+}
+h4{
+    color: white;
+    background-color: #03a835;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 25px 25px 0px 0px;
+}
+article{
+    background-color: rgba(1, 255, 111, 0.274);
+    height: auto;
+    width: auto;
+    padding: auto;
+    border-radius: 25px 25px 25px 25px;
+}
